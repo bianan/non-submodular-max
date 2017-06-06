@@ -1,0 +1,36 @@
+%%% Copyright [2017] [Andrew An Bian | ETH Zurich | http://neocortex.ch/]  
+%  
+%    This folder contains part of the implementations in the paper:
+% 
+% 	"Guarantees for Greedy Maximization of Non-submodular Functions with Applications" 
+%   ICML 2017, Andrew An Bian, Joachim M. Buhmann, Andreas Krause and Sebastian Tschiatschek.
+% 
+%     Please cite the paper if you are using this code in your work.
+% 
+%     The code may be used free of charge for non-commercial and
+%     educational purposes, the only requirement is that this text is
+%     preserved within the derivative work. For any other purpose you
+%     must contact the authors for permission. 
+
+
+--Usage: 
+
+For real-world experiments, run the file:
+  >> main_readdata.m
+
+For synthetic experiments, run the file:
+  >> main_synthetic.m 
+Regarding synthetic experiments, the results may not be exactly 
+the same as the paper due to randomness in generating the data. 
+However, the overall behavior should agree with the paper. 
+
+The parameters (e.g., #repeated experiments, data correlation) are 
+already set up according to description of experiments.
+One can look into the files to further change the settings. 
+Specifically, to change the data generating process, one can 
+configure the file "load_data4opt.m".
+
+--Dataset:
+
+The "housing.mat" is generated from "https://archive.ics.uci.edu/ml/datasets/Housing",
+as described by the paper. 
