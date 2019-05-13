@@ -5,7 +5,7 @@ This repository collects source code for the paper:
 
 "Guarantees for Greedy Maximization of Non-submodular Functions with Applications."
 
- ICML 2017. Andrew An Bian, Joachim M. Buhmann, Andreas Krause and Sebastian Tschiatschek.
+ ICML 2017. A.  Bian, J. Buhmann, A. Krause and S. Tschiatschek.
 
 
 ## Usage:
@@ -33,7 +33,7 @@ run the experiments and tune the setup parameters.
 
 ## Copyright:
 
-Copyright (2017) [Andrew An Bian | ETH Zurich | http://neocortex.ch/]  
+Copyright (2017) [Yatao (An) Bian | ETH Zurich]  
 
 Please cite the above paper if you are using this code in your work.
 
